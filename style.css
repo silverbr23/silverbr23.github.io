@@ -1,8 +1,127 @@
+/* RGB */
+/* Coolors Exported Palette - coolors.co/f1ffe7-4472ca-56666b-2b2d42-e54b4b */
 html {
-  color: #191919;
+  font-family: "Archivo Black", sans-serif;
+  color: #f1ffe7;
+  scroll-behavior: smooth;
+}
+
+nav-bar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: block;
+}
+
+.menuG {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+}
+
+.menuS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+}
+
+.mItem {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.mItem > a:link {
+  text-decoration: none;
+}
+
+.mItem > a:visited {
+  color: #f1ffe7;
+}
+
+.mItem > a:active {
+  text-decoration: none;
+}
+
+header {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(71, 71, 71, 0.75674)), to(rgba(0, 29, 121, 0.753939))), url(/public/images/header.jpg) no-repeat;
+  background: linear-gradient(180deg, rgba(71, 71, 71, 0.75674) 0%, rgba(0, 29, 121, 0.753939) 100%), url(/public/images/header.jpg) no-repeat;
+  background-size: cover;
+  background-position-y: -240px;
+  min-width: 800px;
+  padding-left: 200px;
+  padding-right: 200px;
+  height: 400px;
+}
+
+.landing {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.titulo {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.corpo {
+  font-family: "Judson", serif;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
 }
 
 body {
-  background-color: #e19c53;
+  margin: 0;
+  background-color: #2b2d42;
+}
+
+.wrapper {
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 800px;
+  padding-top: 50px;
+  background-color: #56666b;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+}
+
+.grid > .li-text-12 {
+  grid-column: span 12;
+  margin-bottom: 20px;
+}
+
+.grid > .li-img-3 {
+  grid-column: span 3;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.grid > .li-img-4 {
+  grid-column: span 4;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
 /*# sourceMappingURL=style.css.map */
