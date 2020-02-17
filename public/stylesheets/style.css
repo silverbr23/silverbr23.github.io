@@ -1,8 +1,10 @@
 /* RGB */
+/* Coolors Exported Palette - coolors.co/afd5aa-f0f2ef-5c5346-a69f98-8c6057 */
+/* RGB */
 /* Coolors Exported Palette - coolors.co/f1ffe7-4472ca-56666b-2b2d42-e54b4b */
 html {
   font-family: "Archivo Black", sans-serif;
-  color: #f1ffe7;
+  color: #f0f2ef;
   scroll-behavior: smooth;
 }
 
@@ -76,10 +78,12 @@ header {
 
 body {
   margin: 0;
-  background-color: #2b2d42;
+  background-color: #f0f2ef;
 }
 
 .wrapper {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   margin-left: 200px;
   margin-right: 200px;
   padding-left: 20px;

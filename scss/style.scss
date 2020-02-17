@@ -7,6 +7,14 @@ $blue-grey: rgba(86, 102, 107, 1);
 $dark-blue: rgba(43, 45, 66, 1);
 $soft-red: rgba(229, 75, 75, 1);
 
+/* Coolors Exported Palette - coolors.co/afd5aa-f0f2ef-5c5346-a69f98-8c6057 */
+/* RGB */
+$color1: rgba(175, 213, 170, 1);
+$antiFlash: rgba(240, 242, 239, 1);
+$color3: rgba(92, 83, 70, 1);
+$color4: rgba(166, 159, 152, 1);
+$color5: rgba(140, 96, 87, 1);
+
 $background-image: url(/public/images/header.jpg) no-repeat;
 
 $base-colors: (
@@ -14,7 +22,8 @@ $base-colors: (
   "accent": $light-blue,
   "secondary": $blue-grey,
   "foreground": $dark-blue,
-  "background": $soft-red
+  "background": $soft-red,
+  "layer0white": $antiFlash
 );
 
 /* Coolors Exported Palette - coolors.co/f1ffe7-4472ca-56666b-2b2d42-e54b4b */
@@ -23,11 +32,11 @@ $base-colors: (
   @return map-get($base-colors, $key);
 }
 
-$body-background-color-primary-tinted: base-color("foreground");
+$body-background-color-primary-tinted: base-color("layer0white");
 
 html {
   font-family: "Archivo Black", sans-serif;
-  color: base-color("primary");
+  color: base-color("layer0white");
   scroll-behavior: smooth;
 }
 
@@ -102,6 +111,7 @@ body {
 }
 
 .wrapper {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   margin-left: 200px;
   margin-right: 200px;
   padding-left: 20px;
