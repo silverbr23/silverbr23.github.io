@@ -57,6 +57,7 @@ nav-bar {
 }
 
 .mItem {
+  color: gray;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
@@ -64,20 +65,22 @@ nav-bar {
 }
 
 .mItem > a:link {
+  color: gray;
   text-decoration: none;
 }
 
 .mItem > a:visited {
-  color: base-color("primary");
+  color: gray;
 }
 
 .mItem > a:active {
+  color: gray;
   text-decoration: none;
 }
 
 header {
-  background: linear-gradient(180deg, rgba(71,71,71,0.7567401960784313) 0%, rgba(0,29,121,0.7539390756302521) 100%), $background-image;
-  
+  background: white;
+
   background-size: cover;
   background-position-y: -240px;
   min-width: 800px;
@@ -89,13 +92,19 @@ header {
 .landing {
   padding-top: 120px;
   padding-bottom: 120px;
-  
 }
 
 .titulo {
   font-family: "Archivo Black", sans-serif;
   font-size: 50px;
   font-weight: 800;
+  color: gray;
+  font: 1.65em;
+  letter-spacing: 0.075em;
+  float: left;
+  padding: 0px 335px 30px 295px;
+  margin-top: -110px;
+
 }
 
 .corpo {
@@ -103,6 +112,7 @@ header {
   font-size: 20px;
   font-weight: 300;
   font-style: italic;
+  color: gray;
 }
 
 body {
@@ -119,6 +129,43 @@ body {
   min-width: 800px;
   padding-top: 50px;
   background-color: base-color("secondary");
+}
+
+
+.titulo:first-line {
+  font: 1.85em "Sketch Block";
+}
+
+.titulo > f {
+ line-height:1em !important;
+ letter-spacing: 0;
+ margin-left: -20px;
+}
+
+.titulo:first-letter {
+  font-size: 2.9em;
+  text-transform: lowercase;
+  float: left;
+  line-height: 0.52em;
+  margin-right: -108px;
+  padding-right: -120px;
+  z-index: 1;
+}
+
+.titulo strong:first-child {
+  margin-left: 100px;
+  line-height: -0.3em;
+  letter-spacing: 0;
+}
+
+.titulo > em {
+  font: 3.5em "Sketch Block";
+  line-height: 0;
+  float: left;
+  letter-spacing: 0px;
+  padding-left: 90px;
+  margin: 0px 50px 0px 0px;
+  z-index: 2;
 }
 
 .grid {

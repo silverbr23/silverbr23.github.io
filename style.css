@@ -1,8 +1,10 @@
 /* RGB */
+/* Coolors Exported Palette - coolors.co/afd5aa-f0f2ef-5c5346-a69f98-8c6057 */
+/* RGB */
 /* Coolors Exported Palette - coolors.co/f1ffe7-4472ca-56666b-2b2d42-e54b4b */
 html {
   font-family: "Archivo Black", sans-serif;
-  color: #f1ffe7;
+  color: #f0f2ef;
   scroll-behavior: smooth;
 }
 
@@ -27,6 +29,7 @@ nav-bar {
 }
 
 .mItem {
+  color: gray;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
@@ -34,20 +37,21 @@ nav-bar {
 }
 
 .mItem > a:link {
+  color: gray;
   text-decoration: none;
 }
 
 .mItem > a:visited {
-  color: #f1ffe7;
+  color: gray;
 }
 
 .mItem > a:active {
+  color: gray;
   text-decoration: none;
 }
 
 header {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(71, 71, 71, 0.75674)), to(rgba(0, 29, 121, 0.753939))), url(/public/images/header.jpg) no-repeat;
-  background: linear-gradient(180deg, rgba(71, 71, 71, 0.75674) 0%, rgba(0, 29, 121, 0.753939) 100%), url(/public/images/header.jpg) no-repeat;
+  background: white;
   background-size: cover;
   background-position-y: -240px;
   min-width: 800px;
@@ -65,6 +69,12 @@ header {
   font-family: "Archivo Black", sans-serif;
   font-size: 50px;
   font-weight: 800;
+  color: gray;
+  font: 1.65em;
+  letter-spacing: 0.075em;
+  float: left;
+  padding: 0px 335px 30px 295px;
+  margin-top: -110px;
 }
 
 .corpo {
@@ -72,14 +82,17 @@ header {
   font-size: 20px;
   font-weight: 300;
   font-style: italic;
+  color: gray;
 }
 
 body {
   margin: 0;
-  background-color: #2b2d42;
+  background-color: #f0f2ef;
 }
 
 .wrapper {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   margin-left: 200px;
   margin-right: 200px;
   padding-left: 20px;
@@ -87,6 +100,42 @@ body {
   min-width: 800px;
   padding-top: 50px;
   background-color: #56666b;
+}
+
+.titulo:first-line {
+  font: 1.85em "Sketch Block";
+}
+
+.titulo > f {
+  line-height: 1em !important;
+  letter-spacing: 0;
+  margin-left: -20px;
+}
+
+.titulo:first-letter {
+  font-size: 2.9em;
+  text-transform: lowercase;
+  float: left;
+  line-height: 0.52em;
+  margin-right: -108px;
+  padding-right: -120px;
+  z-index: 1;
+}
+
+.titulo strong:first-child {
+  margin-left: 100px;
+  line-height: -0.3em;
+  letter-spacing: 0;
+}
+
+.titulo > em {
+  font: 3.5em "Sketch Block";
+  line-height: 0;
+  float: left;
+  letter-spacing: 0px;
+  padding-left: 90px;
+  margin: 0px 50px 0px 0px;
+  z-index: 2;
 }
 
 .grid {
